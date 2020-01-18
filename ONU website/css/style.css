@@ -1,0 +1,240 @@
+html{
+	scroll-behavior: smooth;
+}
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+	overflow:hidden;
+}
+h1{
+	font-family:roboto;
+	font-weight:bold;
+	color:#8d8c8c;
+	font-size:36px;
+}
+p{
+	font-family:"roboto";
+	font-weight:regular;
+	color:#8d8c8c;
+	font-size:14px;
+	margin:15px auto;
+
+	
+}
+#header{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 000,000 , 0.3),rgba(0, 000,000 , 0.3)),url(../images/onu-basic.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	clip-path: polygon(0 0, 100% 0, 100% 75%, 50% 100%, 0 77%);
+	position: relative;
+}
+
+.nav-bar{
+	width: 100%;
+	height: auto;
+	background: #8d8c8c;
+	position: fixed;
+}
+.logo{
+	
+}
+.menu{
+	text-align: right;
+	margin-bottom: 30px;
+}
+.menu ul{
+	margin:0;
+	padding:0;
+}
+.menu ul li{
+	display:inline-block;
+	text-decoration:none;
+	padding:0 20px 0 20px;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#fefbfc;
+	cursor: pointer;
+}	
+.menu ul li a:hover{
+	color:#87d37c;
+}
+.headline{
+	width: 100%;
+	height: inherit;
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	
+}
+.headline h2{
+	font-family:"roboto";
+	font-size:20px;
+	font-weight:regular;
+	color:#fefbfc;
+}
+.headline h1{
+	font-family:"roboto";
+	font-weight:bold;
+	color:#fefbfc;
+	font-size:70px;	
+	max-width:550px;
+	display:inline-block;
+	padding:10px;
+	margin:5px;
+	border-top:2px solid #fff;
+	border-bottom:2px solid #fff;
+	border-left:1px solid #fff;
+	border-right:1px solid #fff;
+}
+.headline span{
+	color:#87d37c;
+}
+.headline h3{
+	font-family:roboto;
+	font-weight:regular;
+	color:#fefbfc;
+	font-size:15px;
+}
+#about-us{
+	padding:100px 0;
+	
+}
+
+.up h1{
+	font-family:"roboto";
+	font-weight:bold;
+	color:#8d8c8c;
+	font-size:36px;
+	text-align:center;
+}
+.up p{
+	max-width:700px;
+	text-align:center;
+	
+}
+.down{
+	margin-top:70px;
+}
+.box{
+	max-width:25%;
+	float:left;
+	text-align:center;
+}
+.box h4{
+	font-family:roboto;
+	font-size:24px;
+	font-weight:bold;
+	color:#8d8c8c;
+	margin-bottom:10px;
+}
+.box i{
+	font-size:60px;
+	color:#8d8c8c;
+	margin-bottom:20px;
+}
+.box:hover i,
+.box:hover h4{
+	color:#87d37c;
+}
+#services{
+	background:#f6f9f9;
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:115px;
+}
+#services h1{
+	font-family:roboto;
+	font-weight:bold;
+	color:#8d8c8c;
+	font-size:36px;
+}
+#services p{
+	max-width:700px;
+	font-size:14px;
+	margin-top:10px;
+	color:#8d8c8c;
+}
+.image_box{
+	max-width:25%;
+	float:left;
+	padding:11px;
+	margin-top:40px;
+}
+.image_box:hover{
+	opacity:0.4;
+}
+
+#contact {
+	width: 100%;
+	height: auto;
+	margin: 70px 0;
+}
+.first{
+	text-align: center;
+	padding: 30px 0;
+}
+.second{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.second h4{
+	font-family:roboto;
+	font-size:24px;
+	font-weight:bold;
+	color:#8d8c8c;
+	margin-bottom:10px;
+}
+.second i{
+	font-size:60px;
+	color:#8d8c8c;
+	margin-bottom:20px;
+}
+.three-box:hover i,
+.three-box:hover h4{
+	color:#87d37c;
+}
+
+#footer{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	padding: 80px 0;
+	background: #f6f9f9;
+}
+.icon ul li{
+	display: inline;
+}
+.icon ul li a i {
+	height: 50px;
+	width: 50px;
+	border-radius: 3px;
+	background: #8d8c8c;
+	color: #fff;
+	line-height: 2;
+	font-size: 25px;
+}
+.copyright p{
+	font-size: 15px;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
